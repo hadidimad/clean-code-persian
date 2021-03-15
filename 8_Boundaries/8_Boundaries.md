@@ -6,8 +6,7 @@ components or subsystems for us. Somehow we must cleanly integrate this foreign 
 our software clean.
 # Using Third-Party Code
 There is a natural tension between the provider of an interface and the user of an interface.
-Providers of third-party packages and frameworks strive for broad applicability so they
-can work in many environments and appeal to a wide audience. Users, on the other hand,
+تامین کنندگان پکیج ها و فریمورک های شخص ثالث به دنبال کاربرد های گسترده هستند تا بتوانند با محیط های زیادی کار کرده وبه نیاز های دسته بزرگی از کاربران پاسخ دهند. Users, on the other hand,
 want an interface that is focused on their particular needs. This tension can cause problems
 at the boundaries of our systems.
 Let’s look at java.util.Map as an example. As you can see by examining Figure 8-1,
